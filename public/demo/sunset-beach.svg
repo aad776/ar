@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9a4ff"/><stop offset=".45" stop-color="#ffb0c8"/><stop offset=".75" stop-color="#ffcfa6"/></linearGradient>
+<radialGradient id="sun"><stop offset="0" stop-color="#fff6d8"/><stop offset=".6" stop-color="#ffd59a"/><stop offset="1" stop-color="#ffb38a" stop-opacity="0"/></radialGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9fb9"/><stop offset="1" stop-color="#9c86e8"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.4  0 0 0 0 0.45  0 0 0 0.07 0"/></filter></defs><rect width="800" height="1000" fill="url(#sky)"/>
+<circle cx="400" cy="560" r="150" fill="url(#sun)"/>
+<rect y="600" width="800" height="400" fill="url(#sea)"/>
+<rect x="250" y="630" width="300" height="6" rx="3" fill="#fff" opacity="0.5"/><rect x="232" y="664" width="336" height="6" rx="3" fill="#fff" opacity="0.43"/><rect x="214" y="698" width="372" height="6" rx="3" fill="#fff" opacity="0.36"/><rect x="196" y="732" width="408" height="6" rx="3" fill="#fff" opacity="0.29"/><rect x="178" y="766" width="444" height="6" rx="3" fill="#fff" opacity="0.21999999999999997"/><rect x="160" y="800" width="480" height="6" rx="3" fill="#fff" opacity="0.14999999999999997"/>
+<path d="M0 860 Q200 820 400 860 T800 860 V1000 H0z" fill="#ffe3c4"/>
+<g transform="translate(330 760)"><circle cx="0" cy="0" r="22" fill="#6b3a4e"/><rect x="-18" y="18" width="36" height="70" rx="16" fill="#6b3a4e"/></g>
+<g transform="translate(400 770)"><circle cx="0" cy="0" r="20" fill="#7a4560"/><path d="M-22 18h44l10 68h-64z" fill="#7a4560"/></g>
+<path transform="translate(366 700) scale(1.1)" fill="#ff7aa8" opacity="1" d="M0 6C-6-6-22-4-22 8c0 10 12 18 22 26C10 26 22 18 22 8 22-4 6-6 0 6z"/>
+<path transform="translate(120 180) scale(1.2)" fill="#fff" opacity="0.9" d="M0-20C2-6 6-2 20 0 6 2 2 6 0 20-2 6-6 2-20 0-6-2-2-6 0-20z"/><path transform="translate(650 120) scale(0.8)" fill="#fff" opacity="0.8" d="M0-20C2-6 6-2 20 0 6 2 2 6 0 20-2 6-6 2-20 0-6-2-2-6 0-20z"/><path transform="translate(700 300) scale(0.6)" fill="#fff" opacity="0.7" d="M0-20C2-6 6-2 20 0 6 2 2 6 0 20-2 6-6 2-20 0-6-2-2-6 0-20z"/>
+<rect width="100%" height="100%" filter="url(#grain)"/></svg>

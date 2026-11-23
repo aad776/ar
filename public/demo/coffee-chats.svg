@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.4  0 0 0 0 0.45  0 0 0 0.07 0"/></filter></defs><rect width="800" height="1000" fill="#f8e6d8"/>
+<rect y="560" width="800" height="440" fill="#e9c8ad"/>
+<rect y="560" width="800" height="16" fill="#d8b294"/>
+<rect x="80" y="110" width="250" height="300" rx="16" fill="#ffd6e2"/><rect x="100" y="130" width="210" height="260" rx="10" fill="#fff4f7"/>
+<path transform="translate(205 240) scale(2.2)" fill="#ff8fb4" opacity="1" d="M0 6C-6-6-22-4-22 8c0 10 12 18 22 26C10 26 22 18 22 8 22-4 6-6 0 6z"/>
+<g transform="translate(250 560)"><path d="M-110 -170h220l-20 170h-180z" fill="#fff"/><path d="M110 -140c60 0 60 80 0 80" stroke="#fff" stroke-width="22" fill="none"/><ellipse cx="0" cy="-170" rx="110" ry="18" fill="#a8704f"/><path d="M-30 -230c0-20 30-20 30-40M20 -230c0-20 30-20 30-40" stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none" opacity=".8"/></g>
+<g transform="translate(560 560)"><path d="M-100 -150h200l-18 150h-164z" fill="#ffc8d8"/><path d="M100 -124c54 0 54 70 0 70" stroke="#ffc8d8" stroke-width="20" fill="none"/><ellipse cx="0" cy="-150" rx="100" ry="16" fill="#c98f6b"/><path transform="translate(0 -155) scale(0.9)" fill="#fff" opacity="1" d="M0 6C-6-6-22-4-22 8c0 10 12 18 22 26C10 26 22 18 22 8 22-4 6-6 0 6z"/></g>
+<circle cx="660" cy="200" r="70" fill="#fff" opacity=".6"/><circle cx="700" cy="250" r="40" fill="#fff" opacity=".5"/>
+<g transform="translate(400 800)"><rect x="-160" y="-30" width="320" height="60" rx="30" fill="#fff" opacity=".7"/><text x="0" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#a8546f">coffee &amp; chaos</text></g>
+<rect width="100%" height="100%" filter="url(#grain)"/></svg>
